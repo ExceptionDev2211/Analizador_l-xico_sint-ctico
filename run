@@ -1,0 +1,4 @@
+bison -d sintactico.y
+flex lexico.l
+gcc sintactico.tab.c lex.yy.c -lfl -o program.exe 
+./program.exe pruebas.x

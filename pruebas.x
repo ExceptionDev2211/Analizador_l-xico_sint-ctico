@@ -21,19 +21,29 @@ mostrar(e -- 10);
 
 mostrar("Condicionales");
 
-si(2<3){5+7;}fins
+si(2<3){
+    5+7;
+}fins
 
 variable aa = 0;
-si(200 == 100){aa = 50; }fins
+si(200 == 100){
+    aa = 50; 
+}fins
 mostrar(aa);
 
 variable bb;
-si(100 == 100){bb = 50 + 50;}fins
+si(100 == 100){
+    bb = 50 + 50
+;}fins
 mostrar(bb);
 
 
 variable dd;
-si(50<20){dd = 300;}sino{dd = 10;}fins
+si(50<20){
+    dd = 300;
+}sino{
+    dd = 10;
+}fins
 mostrar(dd);
 
 mostrar("Ciclo for");

@@ -33,8 +33,8 @@ mostrar(aa);
 
 variable bb;
 si(100 == 100){
-    bb = 50 + 50
-;}fins
+    bb = 50 + 50;
+}fins
 mostrar(bb);
 
 
